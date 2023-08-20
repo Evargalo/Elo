@@ -1,6 +1,6 @@
 ---
 title: "Système suisse"
-format: html
+format: pdf
 editor: visual
 ---
 
