@@ -1,0 +1,197 @@
+---
+title: "Système suisse"
+format: html
+editor: visual
+---
+
+# APPARIEMENT AU SYSTEME SUISSE FONDE SUR L'ELO
+
+## A. Remarques préliminaires et définitions
+
+### A.1 Elo
+
+Il est conseillé de vérifier tous les classements Elo fournis par les joueurs. Si le joueur n'a pas de classement Elo, l'arbitre doit faire une estimation aussi précise que possible, avant le début du tournoi.
+
+### A.2 Classement initial et numéros d'appariement
+
+Ordre de présentation des joueurs : Pour les appariements, les joueurs sont rangés d'après les critères suivants (par ordre décroissant) :
+
+a)  Score.
+b)  Classement Elo.
+c)  Grade
+d)  Ordre alphabétique, à moins que le règlement intérieur du tournoi n'ait prévu un autre critère à la place de celui-ci.
+
+Le classement fait avant la première ronde (alors qu'aucun point n'a été marqué) déterminera les numéros d'appariement, le plus grand Classement Elo étant le numéro 1.
+
+### A.3 Niveaux de points
+
+Les joueurs ayant le même nombre de points constituent un niveau de points homogène. Les joueurs restant non appariés après l'appariement de leur niveau seront transférés dans le niveau immédiatement inférieur. Ce niveau deviendra alors un niveau de points hétérogène. Lorsqu'on apparie un niveau hétérogène, ces joueurs transférés vers le bas sont toujours appariés en priorité si cela est possible, les joueurs restants forment alors de nouveau un niveau homogène (que l'on appellera niveau résiduel). Un niveau de point hétérogène dans lequel la moitié des joueurs au moins provient des niveaux supérieurs, est également traité comme un niveau homogène.
+
+### A.4 Flotteurs
+
+En appariant un niveau hétérogène, des joueurs de scores différents seront appariés ensemble. De tels joueurs sont appelés flotteurs. Pour éviter qu'un joueur ne flotte deux fois de suite, l'arbitre devra inscrire sur la fiche d'appariement une flèche ("basse") pour le joueur ayant le score le plus élevé et une flèche ("haute") pour le joueur ayant le score le plus faible.
+
+Précisions :
+
+a)  Influence des forfaits sur les flotteurs : Un gain par forfait est assimilé à une exemption :
+
+-   un joueur gagnant par forfait est considéré comme flotteur descendant.
+-   un joueur perdant par forfait n'est pas flotteur du tout. ceci quel que soit le statut de flotteur au moment des appariements.
+
+b)  Influence des ajournées sur les flotteurs : C'est le problème des appariements que l'on doit effectuer alors que des ajournées sont encore en cours. Les flotteurs ne sont pas modifiés à l'issue des parties ajournées.
+
+### A.5 Exempts
+
+Si le nombre de joueurs est impair (ou le devient), un joueur restera inapparié lorsque tous les niveaux auront été traités. Ce joueur sera alors exempté il n'aura ni adversaire, ni couleur. Il recevra 1 point. Il sera considéré comme un flotteur descendant.
+
+### A.6 Sous-groupes (Lots de joueurs)
+
+Pour apparier, chaque niveau de points sera divisé en deux lots, appelés S1 et S2. Dans un niveau de points hétérogène, S1 contient tous les joueurs issus des niveaux supérieurs. Dans un niveau de points homogène, S1 contient la moitié des joueurs , ces joueurs étant les plus "forts" du niveau. Si le nombre de joueurs du niveau est impair, le nombre de joueurs de S1 est arrondi au nombre entier inférieur.
+
+Le nombre de joueurs de S1 sera appelé p, indiquant également le nombre d'appariements à réaliser dans ce niveau de points. Dans les deux cas, S2 contiendra tous les autres joueurs du niveau de points.
+
+Dans les lots S1 et S2, les joueurs seront ordonnés selon la règle A2.
+
+### A.7 Permutations et échanges
+
+a)  Pour parvenir à un appariement convenable, il est souvent nécessaire d'opérer des changements dans S2. De tels changements, appelés permutations, sont expliqués au paragraphe D1.
+
+b)  Dans un niveau de points homogène, il peut être nécessaire d'échanger des joueurs entre S1 et S2. Les règles d'échange sont expliquées au paragraphe D2. Après chaque échange, S1 et S2 seront réordonnés suivant la règle A2.
+
+### A.8 Définition de x
+
+x est le nombre de joueurs du niveau de points qui ne pourront pas être apparier dans ce niveau et devront rejoindre un niveau inférieur (flotteurs descendants).
+
+x est initialisé à 0 si le nombre de joueurs du niveau est pair, à 1 s'il est impair.
+
+## B. Critères d'appariement
+
+### Critères absolus
+
+(Ces critères sont inviolables. Si c'est nécessaire, les joueurs seront transférés dans un niveau de points inférieur.)
+
+B1 :
+
+a\) Deux joueurs ne se rencontreront pas plus d'une seule fois.
+
+b\) Un joueur qui a reçu un point sans jouer, par exemption ou à cause de l'absence d'un adversaire, ne pourra plus être exempt.
+
+### Critères relatifs (de seconde importance)
+
+Ils sont présentés dans l'ordre de priorité décroissante. Ils devront être respectés autant que possible, au besoin en effectuant des permutations dans S2 et même des échanges entre S1 et S2, mais aucun joueur ne pourra être transféré dans un niveau de point inférieur.
+
+B3 : La différence de points entre deux joueurs appariés l'un contre l'autre sera la plus petite possible, l'idéal étant zéro.
+
+B5 : Aucun joueur ne flottera deux fois de suite dans le même sens .
+
+B6 : Un joueur ayant flotté à une ronde ne pourra être flotteur dans le même sens deux rondes plus tard.
+
+NOTE : Les règles B5 et B6 ne seront pas appliqués lors de l'appariement de joueurs ayant un score de plus de 50 %, à la dernière ronde.
+
+## C. Règles d'appariement
+
+Appliquer les règles suivantes à tous les niveaux de points, en commençant par le plus haut niveau, jusqu'à ce que l'on obtienne un appariement convenable.
+
+C 1 : Si, dans un niveau de points, un joueur ne peut être apparié sans violer les critères B1 ou B2, alors :
+
+-   si ce joueur venait d'un niveau supérieur, appliquer la règle C12.
+-   si l'on est en train d'apparier le dernier niveau, appliquer la règle C13.
+-   dans tous les autres cas, faire flotter le joueur posant problème dans le niveau inférieur le plus proche.
+
+C 2 : Calculer x suivant la règle A 8.
+
+C 3 : Calculer p suivant la règle A 6.
+
+C 4 : Placer les p joueurs les plus forts en S1, et tous les autres joueurs en S2.
+
+C 5 : Ordonner les joueurs de S1 et S2 suivant A2.
+
+C 6 : Apparier le joueur le plus fort de S1 contre le joueur le plus fort de S2, et ainsi de suite. Si les appariements sont réalisés en respectant B1 et B2, l'appariement de ce niveau est provisoirement terminé.
+
+-   Dans le cas d'un niveau de points homogène: les joueurs restants flottent vers le niveau immédiatement inférieur pour lequel on recommence en C1.
+
+-   Dans le cas d'un niveau de points hétérogène, seuls les flotteurs sont appariés pour l'instant. Recommencer en C2 avec les joueurs restants qui forment maintenant un niveau homogène (niveau résiduel).
+
+C 7 : Procéder à une nouvelle permutation dans S2 suivant la règle D1 et recommencer en C6.
+
+C 8 : Dans le cas d'un niveau homogène (ou niveau résiduel), faire un nouvel échange entre S1 et S2 suivant D2 et recommencer en C5.
+
+C 9 : Abandonner les critères B6 puis B5 pour les flotteurs descendants et reprendre en C4.
+
+C 10 : Dans le cas d'un niveau homogène résiduel, défaire l'appariement du plus petit flotteur descendant et essayer de lui trouver un adversaire différent, en reprenant en C7. S'il n'y a pas d'autre alternative pour ce joueur, abandonner le critère B6 puis B5 pour les flotteurs montants et recommencer en C2.
+
+C 11 : Tant que x \< p, augmenter x de 1. Quand on apparie un groupe résiduel, défaire tous les appariements des joueurs, y compris ceux des flotteurs descendants. Recommencer en C3.
+
+C 12 : Dans le cas d'un niveau de points hétérogène, défaire l'appariement du précédent niveau. Si dans ce niveau de point précédent, un appariement peut être fait dans lequel un autre joueur sera flotteur descendant et que cela permet p appariements dans le niveau en cours, alors ce nouvel appariement dans le niveau de point précédent sera conservé.
+
+C13 : Dans le cas du niveau de point le plus bas, l'appariement de l'avant dernier niveau est annulé, essayer de trouver un autre appariement dans cet avant dernier niveau de points, qui permettra l'appariement du dernier niveau de points. Si, dans l'avant dernier niveau de points, p devient égal à zéro (c'est à dire qu'aucun appariement n'est possible pour que l'appariement du dernier niveau de points soit réalisable), alors les deux niveaux les plus bas seront regroupés en un seul. Étant donné que c'est maintenant un autre niveau qui devient l'avant-dernier, C13 peut être répété jusqu'à obtenir un appariement réalisable.
+
+C 14 : Diminuer p de 1 (si la valeur première de x était 1, passer aussi x à 0). Tant que p n'est pas égal à 0, recommencer en C4. Si p = 0, tout le niveau de points est descendu au niveau suivant. Recommencer la procédure avec ce niveau en C1.
+
+## D. Règles de permutation et d'échange
+
+*Exemple :* S1 contient les joueurs 1, 2, 3 et 4 ; S2 contient les joueurs 5, 6, 7 et 8
+
+D1 : Les permutations dans S2 commenceront avec le joueur le plus "faible" (plus grand numéro) dans l'ordre des priorités décroissantes suivantes : a) 5-6-8-7; b) 5-7-6-8; c) 5-7-8-6; d) 5-8-6-7; e) 5-8-7-6; f) 6-5-7-8 g) 6-5-8-7 etc.
+
+Note : Cela revient à écrire tous les nombres possibles avec 5, 6, 7 et 8 dans l'ordre croissant.
+
+D2 : Quand on procède à un échange entre S1 et S2, la différence entre les numéros échangés doit être la plus petite possible. Lorsque les différents choix proposés donnent la même différence, prendre celui qui concerne le joueur le plus "faible" possible de S1.
+
+Echanger un joueur :
+
+|        |     |     | **S1** |     |
+|:------:|:---:|:---:|:------:|:---:|
+|        |     |  4  |   3    |  2  |
+|        |  5  |  a  |   c    |  f  |
+| **S2** |  6  |  b  |   e    |  h  |
+|        |  7  |  d  |   g    |  i  |
+
+Echanger deux joueurs :
+
+|        |     |     | **S1** |     |
+|:------:|:---:|:---:|:------:|:---:|
+|        |     | 3+4 |  2+4   | 2+3 |
+|        | 5+6 |  j  |   l    |  o  |
+| **S2** | 5+7 |  k  |   n    |  q  |
+|        | 6+7 |  m  |   p    |  r  |
+
+Les tableaux ci-dessus montrent comment faire les échanges. Après chaque échange, S1 et S2 doivent être reclassés suivant la règle A2.
+
+Remarque : Si le nombre de joueurs dans un niveau de points est impair, S1 a un joueur de moins que S2. Avec 7 joueurs, S1 : 1, 2, 3 et S2 : 4, 5, 6, 7. Les échanges dans ce cas peuvent se déduire des précédents en réduisant de 1 tous les nombres de S1 et de S2.
+
+## E. Remarques finales
+
+E1 . A l'issue de l'appariement, classer les matchs avant de les publier. Le critère de classement est, en priorité :
+
+-   le score du plus "fort" joueur.
+-   la somme des scores des deux joueurs du match concerné.
+-   le classement suivant A2 du plus "fort" joueur du match concerné.
+
+E2 . Une exemption, ou l'absence d'un joueur (forfait) ne rendront pas illégal un nouvel appariement entre les deux joueurs pour les rondes suivantes.
+
+E4 . Comme tous les joueurs sont dans un niveau de points homogène avant le début de la première ronde et sont classés suivant A2, le premier joueur de S1 jouera contre le premier joueur de S2. Si le nombre est impair, le dernier joueur de S2 sera exempt.
+
+E5 . Les joueurs qui se retirent ne sont plus appariés. Les joueurs dont on sait qu'ils ne participeront pas à une ronde particulière ne seront pas appariés pour cette ronde et marqueront 0 point.
+
+E6 . Un appariement officiellement publié ne sera pas changé, à moins qu'il ne respecte pas les règles impératives B1 ou B2.
+
+E7 . Si l'un des cas suivants se produit:
+
+-   un résultat n'a pas été enregistré correctement
+-   un Elo doit être corrigé
+
+alors la correction n'affectera que les appariements encore à faire Si toutefois, cela affectait un appariement déjà publié mais pas encore joué, la décision serait prise par l'arbitre.
+
+*A moins que le règlement du tournoi n'en dispose autrement :*
+
+E8 . Les joueurs absents lors d'une ronde, sans avoir prévenu l'arbitre, seront considérés comme ayant abandonné et ne seront donc plus appariés.
+
+E9 . Les parties ajournées sont considérées comme nulles, pour les besoins de l'appariement seulement.
+
+E10 . Pour dresser le classement final, les critères suivants seront appliqués
+
+-   le plus grand score. Si plusieurs joueurs ont ce même score, les prix seront partagés.
+-   en ce qui concerne la première place, le départage se fera d'après les résultats des matchs entre les joueurs ex aequo.
+-   la plus grande moyenne des Elo des adversaires
+-   le tirage au sort.
